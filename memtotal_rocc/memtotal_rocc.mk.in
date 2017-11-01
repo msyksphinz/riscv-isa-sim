@@ -1,0 +1,7 @@
+memtotal_rocc_subproject_deps = \
+	spike_main \
+	riscv \
+	softfloat \
+
+memtotal_rocc_srcs = \
+	memtotal_rocc.cc \
