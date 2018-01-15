@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@prefix@
+libdir=${prefix}/@libdir@
+includedir=${prefix}/@includedir@
+
+Name: riscv-matrix16_rocc
+Description: Example RISC-V DotAcc ROCC accelerator
+Version: git
+Libs: -Wl,-rpath,${libdir} -L${libdir} -lmatrix16_rocc
+Cflags: -I${includedir}
+URL: http://riscv.org/download.html#tab_spike
